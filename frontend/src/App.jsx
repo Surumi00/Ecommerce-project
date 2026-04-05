@@ -10,7 +10,7 @@ import Login from './pages/Login'
 import Orders from './pages/Orders'
 import Product from './pages/Product'
 import Place_order from './pages/Place_order'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import Searchbar from './components/Searchbar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
