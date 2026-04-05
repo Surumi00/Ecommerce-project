@@ -3,7 +3,7 @@ import {assets} from '../assets/assets'
 function Footer() {
   return (
     <>
-      <div className='flex justify-around  text-sm   p-20 bg-red-100'>
+      <div className='flex justify-around  text-sm   p-20  m-full'>
         <div className='flex-1'>
             <img src={assets.logo} className='w-32 m-5'/>
             <p className='w-20 md:w-2/3 text-gray-600 '>Lorem ipsum dolor sit amet consectetur 

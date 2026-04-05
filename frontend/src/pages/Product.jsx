@@ -8,7 +8,7 @@ function Product() {
 
     const{productId}=useParams();
     const[productdata,setproductdata]=useState(null);
-    const{products,currency}=useContext(shopcontext);
+    const{products,currency,addtocart}=useContext(shopcontext);
     const[image,setimage]=useState('');
     const[size,setsize]=useState('');
     
@@ -68,7 +68,7 @@ function Product() {
     ))}
 
   </div>
-  <button className=' mt-8 bg-black text-white py-3 px-10 text-sm active:bg-gray-700' >ADD TO CART</button>
+  <button  onClick={()=>addtocart(productdata._id,size)}   className=' mt-8 bg-black text-white py-3 px-10 text-sm active:bg-gray-700' >ADD TO CART</button>
   <hr className='mt-5 border-gray-300'/>
   <div className='mt-4 text-sm text-gray-500 flex flex-col gap-1'>
     <p>100% original product</p>

@@ -8,7 +8,7 @@ function Title({text1,text2}) {
         <p className='w-9 h-[2px] bg-gray-500 mt-5 '></p>
         
          </div>
-         <p className='text-base text-gray-500 '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor tenetur alias repellendus obcaecati pariatu!</p>
+         <p className='text-sm text-gray-500 text-center '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor tenetur alias repellendus obcaecati pariatu!</p>
         
    </>
   )
