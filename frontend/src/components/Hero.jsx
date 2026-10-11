@@ -19,7 +19,7 @@ function Hero() {
         
         </div>
         </div>
-       <img className='w-[50%]'  src={assets.hero_img}></img>
+       <img className='w-[50%]' src={assets.hero2} alt='Latest arrivals' />
         </div>
         
     </div>
